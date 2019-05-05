@@ -8,11 +8,7 @@ window.document.addEventListener('keydown', (event)=>{console.log('user is typin
 
 window.document.addEventListener('wheel', (event)=>{console.log('user is scrolling');});
 
-
-const funbusHeading = document.querySelector('h1');
-funbusHeading.addEventListener('mouseover', (event)=>{console.log('user mouseover header'); funbusHeading.style.fontSize = '4.2rem'});
-
-
+document.querySelector('h1').addEventListener('mouseover', (event)=>{console.log('user mouseover header'); event.target.style.fontSize = '4.2rem'});
 
 window.addEventListener('load', (event) => {console.log('page is fully loaded');});
 
