@@ -8,7 +8,7 @@ window.document.addEventListener('keydown', (event)=>{console.log('user is typin
 
 window.document.addEventListener('wheel', (event)=>{console.log('user is scrolling');});
 
-document.querySelector('p').addEventListener('select', (event=>{console.log('text was selected');}));
+window.document.addEventListener('copy', (event)=>{console.log('user is copying data from our site')});
 
 document.querySelector('h1').addEventListener('mouseenter', (event)=>{console.log('user mouseover header'); event.target.style.fontSize = '4.2rem'});
 document.querySelector('h1').addEventListener('mouseleave', (event)=>{event.target.style.fontSize = '4rem'});
@@ -49,5 +49,3 @@ document.querySelector('.content-pick').addEventListener('mouseleave', (event)=>
 
 
 // other code
-
-
