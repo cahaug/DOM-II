@@ -12,7 +12,7 @@ window.document.addEventListener('wheel', (event)=>{console.log('user is scrolli
 
 window.document.addEventListener('copy', (event)=>{console.log('user is copying data from our site')});
 
-window.document.addEventListener('resize', (event)=>{console.log('user resized the window')});
+document.querySelector('header').addEventListener('resize', (event)=>{console.log('user resized the window')});
 
 window.addEventListener('load', (event) => {console.log('page is fully loaded');});
 

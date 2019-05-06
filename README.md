@@ -38,12 +38,12 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 	* [ ☑️] `keydown`
 	* [ ☑️] `keyup`
 	* [ ☑️] `wheel`
-	* [ ] `drag / drop`
+	* [   ] `drag / drop`
 	* [ ☑️] `load`
-	* [ ] `focus`
-	* [ ] `resize`
+	* [   ] `focus`
+	* [ ☑️] `resize` 
 	* [ ☑️] `scroll`
-	* [ ] `select`
+	* [   ] `select` 
 	* [ ☑️️️️️] `dblclick`
 	* [ ☑️]	`mouseenter`
 	* [ ☑️]	`mouseleave`
