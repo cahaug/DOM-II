@@ -10,6 +10,8 @@ window.document.addEventListener('wheel', (event)=>{console.log('user is scrolli
 
 window.document.addEventListener('copy', (event)=>{console.log('user is copying data from our site')});
 
+window.document.addEventListener('resize', (event)=>{console.log('user resized the window')});
+
 document.querySelector('h1').addEventListener('mouseenter', (event)=>{console.log('user mouseover header'); event.target.style.fontSize = '4.2rem'});
 document.querySelector('h1').addEventListener('mouseleave', (event)=>{event.target.style.fontSize = '4rem'});
 
@@ -47,5 +49,9 @@ document.querySelector('.content-destination').addEventListener('mouseleave', (e
 document.querySelector('.content-pick').addEventListener('mouseenter', (event)=>{event.target.style.backgroundColor='whitesmoke'});
 document.querySelector('.content-pick').addEventListener('mouseleave', (event)=>{event.target.style.backgroundColor='white'});
 
+const btnArr = document.querySelectorAll('.btn');
+btnArr[0].addEventListener('dblclick', (event)=>{console.log('user likes fun in the sun')});
+btnArr[1].addEventListener('dblclick', (event)=>{console.log('user likes mountain excursion')});
+btnArr[2].addEventListener('dblclick', (event)=>{console.log('user likes island getaway')});
 
 // other code
